@@ -576,13 +576,13 @@ body {
 
 .formulari label {
   font-weight: 600;
-  color: #0077cc;
+  color: black;
   margin-bottom: 0.4rem;
 }
 
 .formulari input[type="text"],
 .formulari textarea {
-  width: 100%;
+  width: 96%;
   padding: 0.8rem;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -629,7 +629,7 @@ body {
 }
 
 .formulari input[type="submit"] {
-  background-color: #0077cc;
+  background-color: gray;
   color: white;
   border: none;
   padding: 0.9rem 1.5rem;
