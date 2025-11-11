@@ -1,8 +1,10 @@
+/*Styles de totes les pàgines en general*/
 html, body {
   margin: 0;
   padding: 0;
 }
 
+/*Styles de la nav que hi ha a les 3 pàgines*/
 .nav {
     background-color: gray;
     display: flex;
@@ -34,6 +36,7 @@ html, body {
   color: white;        
 }
 
+/*Styles de index.html a partir de classes*/
 .mainTitle {
   position: relative;
   height: 400px; 
@@ -335,6 +338,7 @@ footer {
     font-size: 14px;
   }
 
+/*Styles de cv.html a partir de IDs*/
 #dades {
   text-align: center;
   padding: 4rem 1rem;
@@ -545,6 +549,7 @@ body {
   font-family: "Segoe UI", sans-serif;
 }
 
+/*Styles de contacte.html fet a partir de classes*/
 .formulari {
   max-width: 600px;
   margin: 3rem auto;
@@ -652,5 +657,170 @@ body {
 
   .formulari input[type="submit"] {
     width: 100%;
+  }
+}
+
+/*Per que funcioni en mòbil (600px)*/
+@media (max-width: 600px) {
+
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-right: 0;
+    background-color: #555;
+    padding: 1rem 0;
+  }
+
+  .mainTitle {
+    height: 250px;
+  }
+
+  .mainTitle h2 {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+  }
+
+  .mainText .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mainText img {
+    max-width: 90%;
+  }
+
+  .projectes-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coneixements-container,
+  .experiencia-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .aficions-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .formulari {
+    padding: 1.5rem;
+  }
+
+  .formulari input[type="submit"] {
+    width: 100%;
+  }
+}
+
+/*Per que funcioni en tauleta vertical (768px)*/
+@media (max-width: 768px) {
+
+  .nav-list {
+    gap: 0.8rem;
+    margin-right: 1rem;
+  }
+
+  .mainTitle {
+    height: 300px;
+  }
+
+  .mainText .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mainText img {
+    max-width: 80%;
+  }
+
+  .projectes-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .coneixements-container {
+    gap: 40px;
+  }
+
+  .experiencia-container {
+    gap: 40px;
+  }
+
+  .aficions-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    max-width: 260px;
+  }
+}
+
+/*Per que funcioni en tauleta horitzontal (992px) */
+@media (max-width: 992px) {
+
+  .mainText .content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .mainText .text {
+    max-width: 90%;
+  }
+
+  .projectes-cards {
+    gap: 20px;
+  }
+
+  .coneixements-container {
+    gap: 50px;
+  }
+
+  .card {
+    max-width: 280px;
+  }
+
+  .formulari {
+    width: 90%;
+  }
+}
+
+/*Per que funcioni en un  escriptori (1200px)*/
+@media (min-width: 1200px) {
+  .mainTitle h2 {
+    font-size: 3rem;
+  }
+
+  .mainText h3,
+  .projectes h3,
+  .coneixements h3,
+  .experiencia h3 {
+    font-size: 2.2rem;
+  }
+
+  .mainText .content {
+    gap: 50px;
+  }
+
+  .card {
+    max-width: 320px;
+  }
+
+  .coneixements-container {
+    gap: 80px;
+  }
+
+  .experiencia-container {
+    gap: 80px;
+  }
+
+  .formulari {
+    max-width: 700px;
   }
 }
