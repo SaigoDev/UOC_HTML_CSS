@@ -545,26 +545,38 @@ body {
   font-family: "Segoe UI", sans-serif;
 }
 
-form {
-  max-width: 500px;
-  margin: 2rem auto;
+.formulari {
+  max-width: 600px;
+  margin: 3rem auto;
   padding: 2rem;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   font-family: "Segoe UI", sans-serif;
-  color: #333;
 }
 
-form label {
-  display: block;
-  margin-bottom: 0.5rem;
+.formulari h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.formulari form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulari label {
   font-weight: 600;
   color: #0077cc;
+  margin-bottom: 0.4rem;
 }
 
-form input[type="text"],
-form textarea {
+.formulari input[type="text"],
+.formulari textarea {
   width: 100%;
   padding: 0.8rem;
   border: 1px solid #ccc;
@@ -575,38 +587,70 @@ form textarea {
   font-family: inherit;
 }
 
-form input[type="text"]:focus,
-form textarea:focus {
+.formulari input[type="text"]:focus,
+.formulari textarea:focus {
   border-color: #0077cc;
-  box-shadow: 0 0 5px rgba(0, 119, 204, 0.4);
+  box-shadow: 0 0 6px rgba(0, 119, 204, 0.3);
   outline: none;
 }
 
-form input[type="checkbox"] {
-  transform: scale(1.2);
-  margin-right: 0.5rem;
+.formulari textarea {
+  resize: vertical; 
 }
 
-form input[type="submit"] {
+.formulari .checkbox-group {
+  display: flex;
+  align-items: center;  
+  gap: 0.6rem;          
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.formulari input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+  vertical-align: middle; 
+  position: relative;
+  top: -1px; 
+}
+
+.formulari label[for="fdades"] {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.formulari input[type="submit"] {
   background-color: #0077cc;
   color: white;
   border: none;
-  padding: 0.8rem 1.5rem;
+  padding: 0.9rem 1.5rem;
   border-radius: 6px;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  align-self: center;
+  width: 50%;
 }
 
-form input[type="submit"]:hover {
+.formulari input[type="submit"]:hover {
   background-color: #005fa3;
   transform: translateY(-2px);
 }
 
-form input[type="submit"]:active {
+.formulari input[type="submit"]:active {
   transform: translateY(0);
 }
 
-form textarea {
-  resize: vertical;
+@media (max-width: 600px) {
+  .formulari {
+    padding: 1.5rem;
+  }
+
+  .formulari input[type="submit"] {
+    width: 100%;
+  }
 }

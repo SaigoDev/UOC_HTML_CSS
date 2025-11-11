@@ -22,16 +22,21 @@
         </ul>
     </nav>
     </header>
-    <form>
-        <label for="fname">Nom:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="fmail">Mail:</label><br>
-        <input type="text" id="fmail" name="fmail"><br>
-        <label for="fcomentaris">Comentaris:</label><br>
-        <textarea id="fcomentaris" name="fcomentaris" rows="6" cols="50" placeholder="Escriu aqui el teu comentari"></textarea><br><br>
-        <label for="fdades">Permets que les teves dades siguin utilitzades?</label>
-        <input type="checkbox" id="fdades" name="fdades"><br><br>
-        <input type="submit" value="Submit">
-    </form>
+    <section class="formulari">
+        <h2>Formulari</h2>
+        <form>
+            <label for="fname">Nom:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="fmail">Mail:</label><br>
+            <input type="text" id="fmail" name="fmail"><br>
+            <label for="fcomentaris">Comentaris:</label><br>
+            <textarea id="fcomentaris" name="fcomentaris" rows="6" cols="50" placeholder="Escriu aqui el teu comentari"></textarea><br><br>
+            <div class="checkbox-group">                
+                <input type="checkbox" id="fdades" name="fdades"><br>
+                <label for="fdades">Permets que les teves dades siguin utilitzades?</label>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
 </body>
 </html>
