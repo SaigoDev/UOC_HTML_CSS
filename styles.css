@@ -334,3 +334,279 @@ footer {
     margin-top: 10px;
     font-size: 14px;
   }
+
+#dades {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(135deg, #16415f 0%, #02496d 100%);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#dades h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+#dades h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  color: #e3f4ff;
+}
+
+#dades h3 {
+  font-size: 1rem;
+  color: #d0ecff;
+  font-weight: 300;
+}
+
+@media (max-width: 600px) {
+  #dades {
+    padding: 3rem 1rem;
+  }
+
+  #dades h1 {
+    font-size: 1.6rem;
+  }
+
+  #dades h2 {
+    font-size: 1.1rem;
+  }
+
+  #dades h3 {
+    font-size: 0.95rem;
+  }
+}
+
+#taula {
+  max-width: 600px;
+  margin: 2rem auto; 
+  padding: 1rem;
+  background-color: #f9f9f9; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#taula h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#taula table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.95rem;
+}
+
+#taula thead {
+  background-color: #0077cc; 
+  color: white;
+}
+
+#taula th,
+#taula td {
+  text-align: center;
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
+
+#taula tbody tr:hover {
+  background-color: #e9f5ff; 
+}
+
+#taula td:first-child {
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+}
+
+#taula th:first-child {
+  text-align: left;
+}
+
+#taula th {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+#estudis {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f9f9f9; 
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+#estudis h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#estudis ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+#estudis li {
+  background: white;
+  border-left: 5px solid #0077cc; 
+  margin-bottom: 1rem;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#estudis li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#estudis p {
+  margin: 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+#estudis strong {
+  font-size: 1.1rem;
+  color: #0077cc;
+}
+
+#laboral {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+#laboral h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#laboral ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#laboral li {
+  background: white;
+  border-left: 5px solid #0077cc;
+  margin-bottom: 1rem;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#laboral li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#laboral p {
+  margin: 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+#laboral strong {
+  font-size: 1.1rem;
+  color: #0077cc;
+}
+
+body {
+  background-color: #eef3f7; 
+  color: #333;
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #0077cc;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: inherit;
+}
+
+form input[type="text"]:focus,
+form textarea:focus {
+  border-color: #0077cc;
+  box-shadow: 0 0 5px rgba(0, 119, 204, 0.4);
+  outline: none;
+}
+
+form input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-right: 0.5rem;
+}
+
+form input[type="submit"] {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+form input[type="submit"]:active {
+  transform: translateY(0);
+}
+
+form textarea {
+  resize: vertical;
+}
