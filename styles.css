@@ -1,0 +1,95 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+    background-color: gray;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;    
+    z-index: 10;
+    list-style: none; 
+    padding: 0;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 10;
+  padding: 0;  
+  display: flex;
+  gap: 1rem; 
+  margin-right: 2rem;
+}
+
+.nav-list li {
+  margin-left: 1.5rem; 
+}
+
+.nav-list a {
+  text-decoration: none; 
+  color: white;        
+}
+
+.mainTitle {
+  position: relative;
+  height: 400px; 
+  background-image: url("Imatges/Fons1.jpeg");
+  background-size: cover;    
+  background-position: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; 
+  max-width: 100%;
+}
+
+.mainTitle h2 {
+  color: black;  
+  background-color: rgba(255, 255, 255, 0.6); 
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.mainText {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.mainText h3 {
+  margin-bottom: 20px;
+  text-align: center; 
+  font-size: 2rem;
+}
+
+.mainText .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.mainText .text {
+  max-width: 600px;
+  text-align: justify;
+}
+
+.mainText p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+.mainText img {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
