@@ -302,3 +302,35 @@ circle.html, circle.css, circle.js {
   font-size: 18px;
   color: black;
 }
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .social-icons a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-size: 28px;
+  transition: color 0.3s, transform 0.3s;
+  display: inline-block; 
+}
+
+  .social-icons a img {
+    width: 32px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+    color: white;
+  }
+
+  .social-icons a img:hover {
+    transform: scale(1.2);
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
