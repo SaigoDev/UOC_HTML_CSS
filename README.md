@@ -1,21 +1,23 @@
 # 📌 Web Portfolio
 
-This is a web portfolio that i did for my Front-End Web Developer course at UOC (Everything is in Catalan)
+This is a personal web portfolio developed as part of the Front-End Web Developer course at UOC.  
+The project showcases basic layout, styling, and animation techniques using HTML and CSS.
+
 
 ## 🚀 Screenshots
 
-![Part1 of my Home Page](assets/Inici1.png)
-![Part2 of my Home Page](assets/Inici2.png)
-![My CV Page](assets/CV.png)
-![My Contact Page](assets/Contacte.png)
+![Home page - Section 1](assets/Inici1.png)
+![Home Page - Section 2](assets/Inici2.png)
+![CV Page](assets/CV.png)
+![Contact Form](assets/Contacte.png)
 
 ## 🧩 Features
 
 - ✅ 3 different pages
 - ✅ CSS animations
-- ✅ Form sheet
+- ✅ Contact Form (A simulation not actually working)
 
-## 🛠️ Languages used
+## 🛠️ Technologies
 
-- HTML
-- CSS
+- HTML5
+- CSS3
