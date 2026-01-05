@@ -1,47 +1,21 @@
-# 📌 Nombre del Proyecto
+# 📌 Web Portfolio
 
-Breve descripción de qué hace el proyecto y para qué sirve.
+This is a web portfolio that i did for my Front-End Web Developer course at UOC (Everything is in Catalan)
 
-## 🚀 Demo / Capturas (opcional)
+## 🚀 Screenshots
 
-Si tienes una demo en vivo o capturas de pantalla, colócalas aquí.
+![Part1 of my Home Page](assets/Inici1.png)
+![Part2 of my Home Page](assets/Inici2.png)
+![My CV Page](assets/CV.png)
+![My Contact Page](assets/Contacte.png)
 
-- Demo: https://tu-demo.com
-- Captura:
-  ![Screenshot](ruta/a/la/imagen.png)
+## 🧩 Features
 
-## 🧩 Características
+- ✅ 3 different pages
+- ✅ CSS animations
+- ✅ Form sheet
 
-- ✅ Característica 1
-- ✅ Característica 2
-- ✅ Característica 3
+## 🛠️ Languages used
 
-## 🛠️ Tecnologías usadas
-
-- Lenguaje / Framework
-- Librería
-- Base de datos
-- Otras herramientas
-
-Ejemplo:
-- JavaScript
-- React
-- Node.js
-- MongoDB
-
-## 📦 Instalación
-
-Pasos para instalar y ejecutar el proyecto localmente:
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/tu-usuario/tu-repositorio.git
-
-# Entrar al proyecto
-cd tu-repositorio
-
-# Instalar dependencias
-npm install
-
-# Ejecutar el proyecto
-npm run dev
+- HTML
+- CSS
